@@ -1,0 +1,6 @@
+resetar é MOV 00,A(por ex);
+
+* Precisa de 4 locais para armazenar as contagens, pois temos 4 contadores (hora/min)
+* Primeiro passo é zerar todos os registradores. (B,C para unidade e dezena de minutos, D,E para unidade horas dezena horas)
+* Próximo passo é direcionar o valor desses registradores para as duas saídas
+* Não se pode jogar um registrador B,C,D,E para uma saída, tem q jogar o A para saída
